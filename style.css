@@ -5,3 +5,31 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+
+body {
+	/*
+		Text colour
+	*/
+	--h1-primary-colour: rgba(
+		0,
+		0,
+		0,
+		0.9
+	); /* Mainly used for the main heading of each page (other than home page). */
+	--h2-primary-colour: #56688e; /* Used for heading: Overview, Services, Mission, Vision, Objectives & on About page*/
+	--h2-secondary-colour: #579c8f; /* Used for headings on the Projects page*/
+	--p-primary: rgba(0, 0, 0, 0.8);
+
+	/*
+		Background (bg) colours
+	*/
+	--btn-bg-primary: #579c8f; /* Mainly used for Our Services btn. */
+	--btn-bg-secondary: #7690c9; /* Mainly used for About Us btn. */
+	--btn-bg-tertiary: #1a2646; /* Mainly used for learn more btn. */
+	--btn-bg-project-duration: #56688e; /* Used for project duration. */
+	--btn-bg-project-value: #a7c5d0; /* Used for project value.*/
+}
+
+body {
+	background-color: var(--btn-bg-primary);
+}
