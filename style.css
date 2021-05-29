@@ -28,7 +28,7 @@ body {
 	--btn-bg-tertiary: #1a2646; /* Mainly used for learn more btn. */
 	--btn-bg-project-duration: #56688e; /* Used for project duration. */
 	--btn-bg-project-value: #a7c5d0; /* Used for project value.*/
-	--bg-lint: #1a2646; /* Used at the top and bottom of each page. */
+	--bg-lint: #1a2646; /* Used at the top and bottom of each page. Add below footer */
 
 	--active-link-border: #56688e;
 }
