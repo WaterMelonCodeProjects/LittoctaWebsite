@@ -45,6 +45,6 @@ nav {
 /*
 	ISSUE: Not working - trying to add border-bottom to the active link but it isn't registering (seems it's being overwritten by Bootstrap)
 */
-.navbar-nav > a .nav-link .active {
-	/* border-bottom: 4px solid var(--active-link-border); */
+.navbar-nav > .nav-link .active {
+	border-bottom: 4px solid var(--active-link-border);
 }
